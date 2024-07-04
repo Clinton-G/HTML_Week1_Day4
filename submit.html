@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+    <title>Recipe Submission Form</title>
+    <style>
+        body {
+            background-image: url('https://bakerbynature.com/wp-content/uploads/2014/06/untitled-3-of-23-2.jpg');
+            background-position: center;
+            background-size: cover
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 65px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        input[type="text"],
+        textarea {
+            width: 550px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: green;
+            border: green solid;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Submit Your Recipe</h1>
+        
+        <form id="recipeForm">
+            
+            <label for="recipeName">Recipe Name:</label>
+            <input type="text" name="recipeName">
+            
+            <label for="ingredients">Ingredients:</label>
+            <input type="text" name="ingredients">
+            
+            <label for="instructions">Instructions:</label>
+            <input type="text" name="instructions">
+            
+            <button type="submit">Submit Recipe</button>
+
+        </form>
+    </div>
+</body>
+</html>
